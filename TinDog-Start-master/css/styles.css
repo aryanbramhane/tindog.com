@@ -1,0 +1,191 @@
+body {
+  font-family: 'Montserrat-Regular 400', sans-serif;
+  font-weight: 300;
+  text-align: center;
+}
+
+.Big-heading{
+font-weight: 900;
+size: 3.5em;
+line-height: 1.5;
+color: white;
+text-align: left;
+}
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Montserrat-Black 900', sans-serif;
+}
+
+h3{
+  font-weight: bold;
+}
+
+h5{
+  color: #C0C0C0;
+}
+
+p{
+  color: #808080;
+}
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* Navigation-bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding-left: 18px;
+  padding-right: 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'Montserrat-lighter', sans-serif
+}
+/* title section */
+#title {
+  background-color: #ff4c68;
+}
+#title .container-fluid{
+  padding: 5% 15% 7%
+}
+
+/* Download-butten */
+.download-button {
+  margin: 5% 3% 5% 0;
+  text-align:left;
+}
+
+/* title image */
+.title-image {
+  width: 50%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+
+
+
+}
+
+
+
+
+
+/* freatured-box  */
+#features{
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+.freatured-box {
+padding: 5%;
+
+
+
+}
+
+
+
+/* icons  */
+.icon{
+  color: #ef8172;
+  padding-bottom: 20px;
+}
+.icon:hover{
+  color:#ff4c68;
+}
+
+/* Testimonials */
+#testimonials{
+  background-color: #ef8172;
+  color: #fff;
+}
+
+
+
+
+.testimonials-images{
+width: 10%;
+border-radius: 100%;
+margin: 20px;
+}
+
+.testimonial-text{
+  font-size: 3rem;
+  line-height: 1.5;
+
+}
+
+/* press section */
+#press{
+  background-color: #ef8172;
+padding-bottom: 3%;
+}
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* pricing */
+
+#pricing{
+  padding: 100px;
+}
+
+.pricing-coloum{
+  padding: 3% 2%;
+}
+
+.pricing-text{
+  font-family: 'Montserrat-bold', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+
+}
+
+/*  Call to Action  */
+
+#cta{
+  background-color: #ff4c68;
+  width: auto;
+  color: #fff;
+
+}
+.cap{
+  font-size: 36px;
+  line-height: 1.5;
+}
+/* footer */
+
+
+
+.icno{
+
+  color: #808080;
+margin: 20px 10px;
+}
+.icno:hover{
+  color: #000;
+}
+
+
+@media (max-width: 1028px) {
+
+  #title{
+    text-align: center;
+  }
+
+  .title-image{
+    position: static;
+    transform: rotate(0);
+  }
+}
